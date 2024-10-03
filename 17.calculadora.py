@@ -1,4 +1,3 @@
-
 def exibirmenu() :
     print("calculadora básica!")
     print("\nmenu de operações: ")
@@ -19,20 +18,20 @@ def soma (n1,n2):
 def subtração (n1,n2):
     return n1 - n2
 
-def multiplicação (n1,n2)
+def multiplicação (n1,n2):
     return n1 * n2
 
-def divisão (n1,n2)
+def divisão (n1,n2):
     if n2 != 0:
      return n1 / n2
-     else:
-        return "erro: divisão por 0 não é permitida :( "
+    else:
+     return "erro: divisão por 0 não é permitida :( "
 
 def restodivisão (n1,n2):
     if n2 != 0:
         return n1 % n2
-        else:
-            return "erro: divisão por 0 não é permitida :( "
+    else:
+        return "erro: divisão por 0 não é permitida :( "
 
 # declaração de variàveis
 
@@ -62,4 +61,3 @@ while opcao != 6:
         print(f"saindo do sistema...")
     else:
         print("você escolheu uma opção inválida...  tente novamente! :/")
-
